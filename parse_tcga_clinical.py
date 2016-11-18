@@ -8,7 +8,7 @@ from lxml import etree
 __author__ = "Nafisa Bulsara"
 
 
-for files in glob.glob('C:/Course Material/Lab-Meeta/clinical_LUAD/*.xml'):
+for files in glob.glob('/path/to/files/*.xml'):
     clinical = open(files, 'r')
     tree = etree.parse(clinical)
     root = tree.getroot()
