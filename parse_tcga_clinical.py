@@ -3,7 +3,7 @@
 import glob
 from lxml import etree
 
-"""Parse TCGA Clinical files to extract information"""
+"""Parse TCGA LUAD Clinical files to extract information"""
 
 __author__ = "Nafisa Bulsara"
 
